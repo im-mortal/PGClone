@@ -58,6 +58,7 @@ while true; do
             --max-size=300G \
             --tpslimit=10 \
             --checkers=16 \
+            --transfers=2 \
             --no-traverse \
             --fast-list \
             --max-transfer 750G \
