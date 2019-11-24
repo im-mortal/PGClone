@@ -47,7 +47,8 @@ while true; do
         --exclude="**deluge**" --exclude="**transmission**" \
         --exclude="**jdownloader**" --exclude="**makemkv**" \
         --exclude="**handbrake**" --exclude="**bazarr**" \
-        --exclude="**ignore**" --exclude="**inProgress**"
+        --exclude="**ignore**" --exclude="**inProgress**" \
+        --exclude=".DS_Store"
 
     if [[ $(find "$hdpath/move" -type f | wc -l) -gt 0 ]]; then
 
